@@ -1,4 +1,16 @@
-Risk ID,Risk Name,Category,Likelihood,Impact,Risk Score,Risk Level,Owner,Treatment Plan,Status
-R-001,Phishing Attack,Cybersecurity,4,5,20,High,IT Security,Impletment MFA and phishing awareness training.,Open
-R-002,Malware Infection,Cybersecurity,3,4,12,Medium,IT Security,"Deploy endpoint protection, path systems, restrict admit privileges, and maintain test backups.",Open
-R-003,Unauthorized Access,Access Control,4,4,16,High,Security Team,"Enforce MFA, perform access reviews, and remove inactive accounts.",Open
+Risk ID,Risk Name,Category,Likelihood,Impact,Risk Score,RiskLevel,Owner,TreatmentPlan,Status,DateCreated,LastUpdated,TargetResolutionDate
+R-001,Phishing Attack,Cybersecurity,4,5,20,High,IT Security,Implement MFA and conduct phishing awareness training.,Closed,2026-06-01,2026-06-18,2026-06-15
+R-002,Unauthorized Access,Access Control,4,4,16,High,Security Team,"Enforce MFA, perform quarterly access reviews, and remove inactive accounts.",Open,2026-06-03,2026-06-20,2026-06-20
+R-003,Ransomware Infection,Cybersecurity,3,5,15,High,Cybersecurity Team,"Deploy endpoint detection and response, maintain offline backups, and conduct incident response exercises.",Open,2026-06-05,2026-06-22,2026-07-30
+R-004,Third-Party Vendor Breach,Third-Party Risk,3,5,15,High,Vendor Risk Management,"Perform annual security assessments and review SOC 2 reports.",Open,2026-06-07,2026-06-24,2026-08-15
+R-005,Privilege Escalation,Identity Management,3,4,12,Medium,Identity & Access Management,"Review privileged accounts quarterly and enforce least privilege.",Mitigated,2026-06-08,2026-06-28,2026-07-10
+R-006,CEMS Data Loss,Environmental Compliance,3,5,15,High,HES Department,"Implement redundant data storage and validate emissions data daily.",Open,2026-06-04,2026-06-21,2026-06-25
+R-007,Permit Compliance Violation,Regulatory Compliance,2,5,10,Medium,HES Department,"Conduct monthly permit reviews and maintain audit-ready documentation.",Mitigated,2026-06-06,2026-06-25,2026-07-20
+R-008,Boiler Tube Leak,Operations,3,5,15,High,Utilities Operations,"Perform ultrasonic thickness inspections during scheduled outages and monitor boiler trends.",Open,2026-06-10,2026-06-27,2026-08-01
+R-009,Steam Turbine Failure,Operations,2,5,10,Medium,Utilities Operations,"Use predictive maintenance and vibration monitoring.",Open,2026-06-11,2026-06-27,2026-07-18
+R-010,Cooling Water Pump Failure,Mechanical Reliability,3,4,12,Medium,Maintenance,"Monitor vibration and maintain spare equipment.",Open,2026-06-12,2026-06-29,2026-06-28
+R-011,Chemical Spill During Transfer,Environmental Safety,2,4,8,Medium,Operations Supervisor,"Inspect transfer equipment and conduct spill response drills.",Open,2026-06-13,2026-06-29,2026-08-05
+R-012,Confined Space Entry Incident,Health & Safety,2,5,10,Medium,Safety Coordinator,"Require permits, atmospheric testing, and continuous attendant monitoring.",Mitigated,2026-06-14,2026-06-29,2026-08-10
+R-013,SCADA Server Hardware Failure,Industrial Control Systems,3,4,12,Medium,Control Systems Team,"Maintain redundant servers and test failover procedures.",Open,2026-06-15,2026-06-29,2026-07-02
+R-014,Electrical Arc Flash Hazard,Electrical Safety,2,5,10,Medium,Electrical Maintenance,"Follow LOTO procedures and complete annual arc flash assessments.",Open,2026-06-16,2026-06-29,2026-09-01
+R-015,NPDES Sampling Failure,Environmental Compliance,2,4,8,Medium,Environmental Compliance Team,"Verify sampling schedules and calibrate monitoring equipment.",Open,2026-06-17,2026-06-29,2026-07-05
